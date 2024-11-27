@@ -13,6 +13,31 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+#resume {
+  margin-top: 100px;
+  text-align: left;
+}
+
+#resume h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#resume a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#resume a:hover {
+  color: #007BFF;
+}
+
+#resume i {
+  margin-right: 8px;
+}
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -531,6 +556,8 @@ body {
   #blog p {
     margin: 2vh 0px;
   }
+
+
 }
 
 ::-webkit-scrollbar {
